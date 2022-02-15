@@ -17,8 +17,8 @@ function countVowels(inputStr) {
     var count = 0;
 
     for (var i = 0; i < inputStr.length; i++) {
-  if (/^[a|e|i|o|u]$/i.test(inputStr[i]))
-   count++;
+        if (/^[a|e|i|o|u]$/i.test(inputStr[i]))
+            count++;
     }
 
     return count;
